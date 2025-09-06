@@ -1,0 +1,12 @@
+resource-pack:
+  # Direct URL to your pack. Must be accessible to players.
+  url: "https://example.com/pack.zip"
+  # 40-char lowercase hex SHA-1 digest of the pack file (optional but recommended)
+  sha1: ""
+  # If true, players who decline will be kicked
+  require: true
+  # Message shown on the client confirmation dialog (JSON text or plain string)
+  prompt: "This server requires a resource pack. Click Yes to continue."
+  # Kick message if player declines or fails to download when require=true
+  kick-message: "You must accept the server resource pack to play."
+

@@ -1,0 +1,14 @@
+name: ResourcePackEnforcer
+main: com.example.resourcepack.ResourcePackPlugin
+version: 1.0.0
+api-version: '1.21'
+commands:
+  resourcepackreload:
+    description: Reload the resource pack configuration
+    usage: /<command>
+    permission: resourcepack.reload
+permissions:
+  resourcepack.reload:
+    description: Allows reloading the resource pack configuration
+    default: op
+
